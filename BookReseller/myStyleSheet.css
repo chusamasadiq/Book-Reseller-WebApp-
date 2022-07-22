@@ -1,0 +1,488 @@
+/*----------------------- Header ----------------------- */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a.active,
+a:active,
+a:focus,
+a:hover {
+  outline: none;
+  text-decoration: none;
+  color: #27ae60;
+}
+
+img {
+  max-width: 100%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.h1,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.3;
+  display: block;
+}
+
+/*----------------------- Overall CSS Section ----------------------- */
+
+/*----------------------- Header ----------------------- */
+
+.navbar {
+  margin: auto;
+  background-color: #27ae60;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-item {
+  color: white;
+  padding: auto;
+  cursor: pointer;
+}
+
+#Accounts {
+  color: white;
+}
+
+.button-cart {
+  padding-top: 3px;
+  color: white;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+/*----------------------- End of Header ----------------------- */
+
+/*----------------------- Categories / Product Section ----------------------- */
+
+.Category {
+  color: black;
+  position: relative;
+  padding: 20px;
+}
+
+.Product {
+  color: black;
+  position: relative;
+  padding: 10px;
+}
+
+.card {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 15px;
+ 
+}
+
+.products-card{
+  padding-top: 15px;
+  height: 500px;
+  max-width: 320px;
+}
+
+.card-img{
+  display: block;
+  flex:center;
+  height: 220px;
+  width: 100%;
+}
+
+.card-img-top {
+  height: 320px;
+  max-width: 320px;
+}
+
+.card-img-des {
+  max-height: 400px;
+  max-width: 100%;
+}
+
+.card:hover {
+  background: white;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  transition: transform 1qs;
+}
+
+#Product_Discription {
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+.SearchProduct {
+  padding-top: 7%;
+}
+
+/*----------------------- End of Categories / Product Section ----------------------- */
+
+/*----------------------- Carousel / Slider Section ----------------------- */
+
+.home{
+  background: url(./image/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .row{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.home .row .content{
+  flex:1 1 42rem;
+}
+
+.home .row .books-slider{
+  flex:1 1 42rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home .row .books-slider a img{
+  height: 14rem;
+}
+
+.home .row .books-slider a:hover img{
+  transform: scale(.8);
+}
+
+.home .row .books-slider .stand{
+  width:100%;
+  margin-top: -2rem;
+}
+
+.home .row .content h3{
+  color:black;
+  font-size: 4.5rem;
+}
+
+.home .row .content p{
+  color:rgb(0, 136, 45);
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2;
+  padding:1rem 0;
+}
+
+
+
+/*----------------------- End of Carousel / Slider Section ----------------------- */
+
+/*----------------------- Footer Section ----------------------- */
+
+.footer {
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+#footerbutton {
+  width: 255px;
+}
+
+.Powerby {
+  margin: auto;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+/*----------------------- End of Footer Section ----------------------- */
+
+/*----------------------- Subscription Section ----------------------- */
+
+.jumbotron {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+/*----------------------- End of Subscription Section ----------------------- */
+
+/*----------------------- Login / About / Second Footer Section ----------------------- */
+
+.col {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  width: 300px;
+}
+
+.ForgetLink-item {
+  color: black;
+}
+
+.Loginfooter {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.About {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.text {
+  padding-top: 20px;
+  font-weight: 400px;
+}
+
+.Mission {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 24px;
+  margin-left: 80px;
+  padding-bottom: 20px;
+}
+
+.Dev {
+  padding-top: 40px;
+  color: orange;
+}
+
+#account-button {
+  width: 180px;
+  border-radius: 50px;
+}
+
+#login-button {
+  width: 180px;
+  border-radius: 50px;
+}
+
+/*----------------------- Responsive Section (Media Queries)----------------------- */
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #button {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #footerbutton {
+    width: 80%;
+  }
+}
+
+/*----------------------- End of Responsive Section (Media Queries)----------------------- */
+
+/*----------------------- Add to Cart / Cart Section----------------------- */
+
+.badge {
+  position: relative;
+  top: -60px;
+  left: 25px;
+  border-radius: 50%;
+}
+
+.button-cart {
+  background-color: #27ae60;
+  border: none;
+}
+
+.alert-sms {
+  display: none;
+}
+
+.cart-items {
+  margin-top: 100px;
+}
+
+/*----------------------- End of Add to Cart / Cart Section----------------------- */
+
+.Product_Discription {
+  margin-top: 120px;
+}
+
+#QuantityControlSelect {
+  width: 120px;
+}
+
+#P_Cart {
+  padding-top: 32px;
+  padding-left: 20px;
+}
+
+#Billing_btn {
+  border-radius: 50px;
+}
+
+/*----------------------- Sign Up Form ----------------------- */
+
+#form_fname {
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+#form_lname {
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+#form_email {
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+#form_password {
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+/*----------------------- Login Form ----------------------- */
+
+#Lform_email {
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+#Lform_password {
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+/*----------------------- Billing Form ----------------------- */
+
+#Billing-Payment {
+  margin-top: 8%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+
+/*----------------------- Socail Media Links ----------------------- */
+
+a.fb-ic {
+  color: white;
+}
+
+a.fb-ic:hover {
+  color: #4267b2;
+}
+
+a.tw-ic {
+  color: white;
+}
+
+a.tw-ic:hover {
+  color: #1da1f2;
+}
+
+a.gplus-ic {
+  color: white;
+}
+
+a.gplus-ic:hover {
+  color: #fd900a;
+}
+
+a.li-ic {
+  color: white;
+}
+
+a.li-ic:hover {
+  color: #0e76a8;
+}
+
+a.ins-ic {
+  color: white;
+}
+
+a.ins-ic:hover {
+  color: #f34222;
+}
+
+a.snap-ic {
+  color: white;
+}
+
+a.snap-ic:hover {
+  color: #f8f811;
+}
+
+.ShoppingCart {
+  padding-top: 9%;
+}
+
+.top {
+  position: fixed;
+  bottom: 7.5rem;
+  right: 2rem;
+  z-index: 100;
+  display: none;
+  border-radius: 50;
+}
+.devImage{
+  height: 300px;
+  /* max-width: 100%; */
+}
+
+/*.width-3rem{*/
+/*    width:3rem!important;*/
+/*}*/
+
+/*.height-4rem{*/
+/*    width:0.25rem;*/
+/*}*/
+
+/*.rounded{*/
+/*    width:0.25rem!important;*/
+/*}*/
